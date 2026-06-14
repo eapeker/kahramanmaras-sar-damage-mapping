@@ -1,0 +1,9 @@
+numpy
+rasterio
+geopandas
+xarray
+stackstac
+pystac-client
+torch
+scikit-learn
+matplotlib
