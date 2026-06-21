@@ -1,4 +1,6 @@
 numpy
+scipy
+scikit-image
 rasterio
 geopandas
 xarray
@@ -7,3 +9,4 @@ pystac-client
 torch
 scikit-learn
 matplotlib
+pytest

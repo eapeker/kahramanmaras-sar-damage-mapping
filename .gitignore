@@ -209,6 +209,48 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# ============ SAR Project Specific ============
+# Test outputs and results
+tests/outputs/
+tests/results/
+test_results.txt
+
+# Cache files
+*.pkl
+*.pickle
+*.cache
+*.joblib
+
+# Temporary data files
+*.tmp
+*_temp.npy
+*_temp.npz
+
+# Output images from tests
+*.png
+*.jpg
+*.jpeg
+plots/
+figures/
+
+# Data cache
+data/cache/
+data/processed/
+data/*.tif
+data/*.tiff
+
+# Model checkpoints and outputs
+models/checkpoints/
+models/outputs/
+
+# Jupyter outputs
+.ipynb_checkpoints/
+*_checkpoint.ipynb
+
+# Logs
+logs/
+*.log
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
